@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2024 Betide Studio. All Rights Reserved.
+// Copyright (c) 2024 Betide Studio. All Rights Reserved.
 
 #pragma once
 
@@ -32,5 +32,5 @@ private:
 	FSessionFindStruct Var_SessionFindStruct;
 
 	UPROPERTY()
-	UObject* WorldContextObject;
+	TObjectPtr<UObject> WorldContextObject;
 };
